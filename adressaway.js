@@ -16,8 +16,14 @@
     author.
 */
 
+var debug = true;
+
 chrome.webRequest.onBeforeSendHeaders.addListener(
     function (details) {
+        if (debug) {
+            console.log("Intercepting request headers, adding google referrer.")
+        }
+
         details.requestHeaders.push(
             {
                 name: "Referer",
