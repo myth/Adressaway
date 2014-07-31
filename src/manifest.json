@@ -1,7 +1,8 @@
 {
     "manifest_version": 2,
 
-    "name": "Adressaway",
+    "name": "Adressaway Plus",
+    "short_name": "Adressaway",
     "description": "Enhances user experience on adressa.no",
 
     "version": "0.1",
