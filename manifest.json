@@ -6,8 +6,13 @@
 
     "version": "0.1",
 
+    "background": {
+        "scripts": ["adressaway.js"]
+    }
+
     "permissions": [
-        "http://*.adressa.no/",
-        "https://*.adressa.no/"
-    ],
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.adressa.no/"
+    ]
 }
