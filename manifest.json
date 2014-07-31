@@ -10,6 +10,8 @@
         "scripts": ["adressaway.js"]
     },
 
+    "icons": {"48": "img/icon48x48.png", "128": "img/icon128x128.png"},
+
     "permissions": [
         "webRequest",
         "webRequestBlocking",
