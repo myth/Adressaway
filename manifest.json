@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+
+    "name": "Adressaway",
+    "description": "Enhances user experience on adressa.no",
+
+    "version": "0.1",
+
+    "permissions": [
+        "http://*.adressa.no/",
+        "https://*.adressa.no/"
+    ],
+}
