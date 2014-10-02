@@ -26,6 +26,12 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
                 value: "https://www.google.com/"
             }
         )
+        details.requestHeaders.push(
+            {
+                name: "User-Agent",
+                value: "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+            }
+        )
         return {
             requestHeaders: details.requestHeaders
         }

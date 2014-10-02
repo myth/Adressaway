@@ -3,9 +3,9 @@
 
     "name": "Adressaway Plus",
     "short_name": "Adressaway",
-    "description": "Enhances user experience on adressa.no",
+    "description": "Åpner Pluss-artikler på  adressa.no",
 
-    "version": "0.1",
+    "version": "0.2",
 
     "background": {
         "scripts": ["adressaway.js"]
