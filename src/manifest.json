@@ -16,6 +16,8 @@
     "permissions": [
         "webRequest",
         "webRequestBlocking",
-        "*://*.adressa.no/"
+        "*://*.adressa.no/",
+        "*://*.rbnett.no/",
+        "*://*.smp.no/"
     ]
 }
