@@ -37,7 +37,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
         }
     },
     {
-        urls: ["*://*.adressa.no/*", "*://*.rbnett.no/", "*://*.smp.no/"]
+        urls: ["*://*.adressa.no/*", "*://*.rbnett.no/*", "*://*.smp.no/*"]
     },
     ["blocking", "requestHeaders"]
 )
