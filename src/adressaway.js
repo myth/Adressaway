@@ -22,14 +22,8 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
     function (details) {
         details.requestHeaders.push(
             {
-                name: "Referer",
-                value: "https://www.google.com/"
-            }
-        )
-        details.requestHeaders.push(
-            {
                 name: "User-Agent",
-                value: "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+                value: "Googlebot/2.1 (+http://www.googlebot.com/bot.html)"
             }
         )
         return {
@@ -37,7 +31,7 @@ chrome.webRequest.onBeforeSendHeaders.addListener(
         }
     },
     {
-        urls: ["*://*.adressa.no/*", "*://*.rbnett.no/", "*://*.smp.no/"]
+        urls: ["*://*.adressa.no/*", "*://*.rbnett.no/*", "*://*.smp.no/*"]
     },
     ["blocking", "requestHeaders"]
 )
