@@ -5,7 +5,7 @@
     "short_name": "Adressaway",
     "description": "Åpner Pluss-artikler på adressa.no (fungerer også på rbnett.no og smp.no)",
 
-    "version": "0.3",
+    "version": "0.3.1",
 
     "background": {
         "scripts": ["adressaway.js"]
