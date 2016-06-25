@@ -15,6 +15,8 @@ Adressaway Plus is a Chrome extension that unlocks articles behind the SPID payw
 
 Attempting to drag and drop the extension with a regular web page open will make Chrome believe it is being injected from that page, and deny adding the extension.
 
+Try enabling developer mode if Chrome randomly decides to disable the extension.
+
 #### Option 2: Chrome Web store
 
 Google Chrome Store has suddenly taken down the extension. My guess is they have received a complaint.
